@@ -2,17 +2,15 @@ import java.util.*;
  
   public class add {
  
-     public static void main(String[] args)
+    public static void main(String[] args)
     {
         int n = 10;
+        int num = 10;
         int i;
  
-        Integer intArray[]
-            = { 1, 2, 3, 4, 5 };
+        Integer intArray[] = { 1, 2, 3, 4, 5 };
  
-        System.out.println("Original Array:\n" + Arrays.toString(intArray));
- 
-        int num = 10;
+        System.out.println("Original Array:\n" + Arrays.toString(intArray));        
  
         List<Integer>intlist = new ArrayList<Integer>(Arrays.asList(intArray));
  
